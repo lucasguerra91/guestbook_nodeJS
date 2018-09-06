@@ -1,0 +1,21 @@
+<% include header %>
+<h2> Esribe una entrada </h2>
+<form method="post" role="form">
+
+  <div class="form-group">
+    <label for="title">Titulo</label>
+    <input type="text" class="form-control" id="title" name="title" placeholder="Ingrese un titulo" required>
+  <div>
+
+  <div class="form-group">
+    <label for="content">Texto de la entrada</label>
+    <textarea class="form-control" id="body" name="body" placeholder="Una simple entrada.." rows="3" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <input type="submit" value="Publicar" class="btn btn-primary">
+  <div>
+
+</form>
+
+<% include footer %>
